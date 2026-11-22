@@ -128,9 +128,9 @@ Avoid multi-layer glow stacks.
 - Logo mark 36px + Poppins brand
 - One primary CTA only (no store-button cluster in the bar)
 
-### QR slot
-- Fixed square frame, `radius.lg`, white surface, soft shadow, border
-- Placeholder: dashed primary border on `primarySoft` until `qr-code.png` ships
+### Download visual
+- Portrait dog photo (`/assets/dog.png`) in a soft `primarySoft` frame, `rounded-[2rem]`
+- Light teal gradient wash; logo + caption under the image (no QR)
 
 ### Section heading
 - Eyebrow: uppercase, tracking wide, `primary` (or `secondary` on teal bands)
@@ -148,7 +148,7 @@ Avoid multi-layer glow stacks.
 1. `#top` — Hero
 2. `#how-it-works` — Three steps
 3. `#features` — What PawDex does (full-bleed primary band)
-4. `#download` — Store CTAs + QR
+4. `#download` — Store CTAs + dog photo visual
 5. Footer — legal + anchors
 
 ---
@@ -159,8 +159,8 @@ Avoid multi-layer glow stacks.
 |-------|------|-----|
 | App icon | `/assets/app-icon.png` | Favicon, nav, footer |
 | Logo | `/assets/logo.png` | Brand mark alternate |
+| Dog photo | `/assets/dog.png` | Download section visual |
 | Condition / feature icons | `/assets/*.png` | How it works, features, phone mock |
-| QR (future) | `/assets/qr-code.png` | Download section |
 
 Icons are teal-palette illustrated PNGs from the app branded set — do not replace with generic emoji or Lucide unless matching the brand set.
 
@@ -189,7 +189,6 @@ Icons are teal-palette illustrated PNGs from the app branded set — do not repl
 ## Unresolved / launch checklist
 
 - [ ] Real App Store / Play URLs in `src/config.ts`
-- [ ] `qr-code.png` + `qrReady: true`
 - [ ] Flip `StoreButtons` `comingSoon` to `false`
 - [ ] Host privacy/support alongside landing (already copied into `public/`)
 

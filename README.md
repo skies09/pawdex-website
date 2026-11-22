@@ -49,6 +49,5 @@ Hosting serves the Vite `dist` folder as a SPA (all routes rewrite to `/index.ht
 ## Before launch
 
 1. Set App Store / Play Store URLs in `src/config.ts` (`storeLinks`).
-2. Set `comingSoon={false}` on `<StoreButtons />` in `Hero`, `Navbar`, and `Download` (or flip the default in `StoreButtons.tsx`).
-3. Add `public/assets/qr-code.png` and set `qrReady` to `true` in `src/config.ts`.
-4. Point privacy / support links in `src/config.ts` to your hosted legal pages.
+2. Set `comingSoon={false}` on `<StoreButtons />` in `Hero` and `Download` (or flip the default in `StoreButtons.tsx`).
+3. Point privacy / support links in `src/config.ts` to your hosted legal pages.

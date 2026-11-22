@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
+import { DownloadVisual } from './DownloadVisual'
 import { StoreButtons } from './StoreButtons'
-import { QrSlot } from './QrSlot'
 
 const ease = [0.22, 1, 0.36, 1] as const
 
@@ -38,7 +38,7 @@ export function Download() {
           transition={{ duration: 0.35, delay: 0.08, ease }}
           className="flex justify-center md:justify-end"
         >
-          <QrSlot size={180} />
+          <DownloadVisual />
         </motion.div>
       </div>
     </section>

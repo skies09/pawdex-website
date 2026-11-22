@@ -1,5 +1,5 @@
 /**
- * Replace these when App Store / Play Store links and QR assets are ready.
+ * Replace these when App Store / Play Store links are ready.
  */
 export const storeLinks = {
   ios: '#download',
@@ -12,6 +12,3 @@ export const legalLinks = {
   support: '/support',
   legal: '/legal',
 } as const
-
-/** Drop a QR image at /public/assets/qr-code.png and set this to true. */
-export const qrReady = false

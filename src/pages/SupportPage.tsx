@@ -19,7 +19,7 @@ export function SupportPage() {
         <div className="rounded-lg bg-primary-soft/50 p-6 ring-1 ring-surface-border">
           <p className="font-display text-lg font-semibold text-ink">Email us</p>
           <p className="mt-2 text-sm text-ink-muted">
-            Prefer to write directly? Use the address below — placeholder until the live inbox is confirmed.
+            Prefer to write directly? Use the address below.
           </p>
           <div className="mt-4">
             <Button href={`mailto:${supportEmail}`} variant="primary">
